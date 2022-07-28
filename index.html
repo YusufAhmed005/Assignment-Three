@@ -218,13 +218,97 @@
                 </p>
             </div>
             <div class="">
-                <a class="btn btn-light btn btn-outline-light  text-black px-5" type="submit" href="register.html">Registrer Now</a>
+                <!-- <a class="btn btn-light btn btn-outline-light  text-black px-5" type="submit" href="register.html">Registre Now</a> -->
+                <button type="button" class="btn btn-light btn-outline-light text-black" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Register Now</button>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+         <div class="modal-dialog">
+          <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="recipient-name" class="col-form-label">Recipient:</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+          <div class="mb-3">
+            <label for="message-text" class="col-form-label">Message:</label>
+            <textarea class="form-control" id="message-text"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Send message</button>
+      </div>
+    </div>
+  </div>
+</div>
             </div>
         </section>
       <!-- 
         register now  section end 
      -->
-
+     <!--
+         Frequently Asked Questions Start
+     -->
+     <section class="container-fluid w-75 text-center my-5">
+        <div>
+            <h1 class="fw-boled">
+                Frequently Asked Questions
+            </h1>
+            <p class="my-3">
+                Frequently asked questions (FAQ) are questions and answers that often follow a certain topic a collection of common questions that tend to be asked over and over again on topics such as timing,
+            </p>
+        </div>
+        <div class="my-5">
+            <p>
+                <a class="btn btn-outline-info text-black" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    What is the Difference Between Flexbox and Grid?
+                </a>
+              </p>
+              <div class="collapse" id="collapseExample">
+                <div class="card card-body">
+                    This article is created to differentiate between flex and grid, the two values used to define the display property in CSS.The display: flex is used to create flexible items or simply used to create a flex container, where childrens of flex container becomes flex items, and all flex items becomes flexible to flow both vertically and horizontally. Whereas the display: grid is used to create layout based on rows and columns.
+                </div>
+              </div>
+              <p>
+                <a class="btn btn-outline-info text-black" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    What is the Difference Between Bootstrap and Tailwind?
+                </a>
+              </p>
+              <div class="collapse" id="collapseExample">
+                <div class="card card-body">
+                    To create an interface between computers and people, developers use front-end frameworks. These frameworks are designed and developed to create sites for people. They allow developers and users to have adequate control. Bootstrap and Tailwind are also two such CSS front-end frameworks used on a large scale. No single web developer is not familiar with these two platforms.
+                </div>
+              </div>
+              <p>
+                <a class="btn btn-outline-info text-black" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    What is CSS box model?
+                </a>
+              </p>
+              <div class="collapse" id="collapseExample">
+                <div class="card card-body">
+                    In CSS, the term "box model" is used when talking about design and layout.The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content. The image below illustrates the box model:
+                </div>
+              </div>
+              <p>
+                <a class="btn btn-outline-info text-black" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    What is a  Semantic tag?
+                </a>
+              </p>
+              <div class="collapse" id="collapseExample">
+                <div class="card card-body">
+                    Semantic Tagging is the process of associating an element from an ontology with some document, usually a computer file or website. Semantic tagging serves the goal of describing a document in order to facilitate better retrieval later on.
+                </div>
+              </div>
+        </div>
+     </section>
+     <!--
+         Frequently Asked Questions End
+     -->
     <!--
          js link 
      -->
